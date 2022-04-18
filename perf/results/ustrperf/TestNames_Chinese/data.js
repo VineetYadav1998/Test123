@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649984476024,
-  "repoUrl": "https://github.com/unicode-org/icu",
+  "lastUpdate": 1650292780512,
+  "repoUrl": "https://github.com/VineetYadav1998/Test123",
   "entries": {
     "Benchmark": [
       {
@@ -4798,6 +4798,102 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestScan2",
             "value": 44.0189,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shane@unicode.org",
+            "name": "Shane F. Carr",
+            "username": "sffc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47824c5568f0a1528c44e5264cb65e9e18705c18",
+          "message": "ICU-21956 Merge maint-71 to main",
+          "timestamp": "2022-04-14T17:45:38-07:00",
+          "tree_id": "b53a205780b474ed928dcf2732513ac8de8743a6",
+          "url": "https://github.com/VineetYadav1998/Test123/commit/47824c5568f0a1528c44e5264cb65e9e18705c18"
+        },
+        "date": 1650292778422,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCtor",
+            "value": 19.4342,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor1",
+            "value": 19.989,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor2",
+            "value": 23.8681,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor3",
+            "value": 32.4631,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign",
+            "value": 40.2169,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign1",
+            "value": 38.461,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign2",
+            "value": 23.9937,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestGetch",
+            "value": 15.435,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCatenate",
+            "value": 124.5063,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan",
+            "value": 24.4079,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan1",
+            "value": 52.2386,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan2",
+            "value": 44.0539,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
